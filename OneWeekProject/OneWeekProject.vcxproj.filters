@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Ability.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbilityImmunity.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbilityPickup.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Background.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Blackhole.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Coin.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collider.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CrosshairWidget.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemy.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MovingPlatform.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NotDoodleJump.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Projectile.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScoreWidget.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpriteObject.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widget.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyFramework.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Framework.h" />
+    <ClInclude Include="src\MyFramework.h" />
+    <ClInclude Include="src\Ability.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AbilityImmunity.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AbilityPickup.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Background.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Blackhole.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Coin.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Collider.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CrosshairWidget.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ECollisionLayers.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EGameLayers.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enemy.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entity.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NotDoodleJump.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Projectile.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vec2.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SpriteObject.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Widget.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScoreWidget.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MovingPlatform.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="FrameworkRelease_x64.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FrameworkRelease_x64.dll" />
+    <None Include="libjpeg-9.dll" />
+    <None Include="libpng16-16.dll" />
+    <None Include="SDL2.dll" />
+    <None Include="SDL2_image.dll" />
+    <None Include="zlib1.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{0e0d0cc2-39b5-4162-a8a8-a40e2309a3e7}</UniqueIdentifier>
+      <Extensions>h;</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{5f9f663a-ccdb-4118-b444-435f97e68217}</UniqueIdentifier>
+      <Extensions>cpp;</Extensions>
+    </Filter>
+  </ItemGroup>
+</Project>
