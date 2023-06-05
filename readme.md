@@ -1,4 +1,4 @@
-A small game made with a timelimit of one week. 
+A small game based on the game doodle jump, made with a timelimit of one week. 
 The game follows several rules and design guidelines given before the start of development. 
 
 As a basis for the game a very simple framework was provided that allowed for loading and rendering of sprites at a given screen position as well as basic input events.
